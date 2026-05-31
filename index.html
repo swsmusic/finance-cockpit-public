@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finance Command Center</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <div class="kicker">SimpleFIN-backed · BDT excluded · commitments included</div>
+        <h1>Finance Command Center</h1>
+        <p class="lede">A clean CFO cockpit for the next cash decision: runway, cash velocity, commitments, and the few things that need action.</p>
+      </div>
+      <div class="status-block">
+        <span id="statusDot" class="status-dot"></span>
+        <div>
+          <b id="statusText">Loading…</b>
+          <span id="freshness">Pulling local finance files</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-grid" aria-label="Headline finance metrics">
+      <article class="metric-card dominant">
+        <span class="metric-label">Adjusted runway</span>
+        <strong id="runwayDays">—</strong>
+        <em>Primary CFO number after owner pay + Meta</em>
+      </article>
+      <article class="metric-card cash">
+        <span class="metric-label">NMS spendable</span>
+        <strong id="nmsCash">—</strong>
+        <em>Operating cash, BDT excluded</em>
+      </article>
+      <article class="metric-card home">
+        <span class="metric-label">Home cash</span>
+        <strong id="homeCash">—</strong>
+        <em>Household pressure point</em>
+      </article>
+      <article class="metric-card gap">
+        <span class="metric-label">Daily gap</span>
+        <strong id="dailyGap">—</strong>
+        <em>Income minus adjusted outflow</em>
+      </article>
+    </section>
+
+    <section class="command-strip">
+      <div>
+        <span>Burn basis</span>
+        <b id="burnBasis">—</b>
+      </div>
+      <div>
+        <span>Avg income</span>
+        <b id="avgIncome">—</b>
+      </div>
+      <div>
+        <span>Posted outflow</span>
+        <b id="postedOutflow">—</b>
+      </div>
+      <div>
+        <span>Committed burn</span>
+        <b id="committedBurn">—</b>
+      </div>
+      <button id="refreshBtn" class="refresh-btn">Reload snapshot</button>
+    </section>
+
+    <section class="layout">
+      <article class="panel flow-panel">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">Velocity</span>
+            <h2>Income vs Outflow</h2>
+          </div>
+          <p>Daily cash movement from internal finance files. Green is income, red is outflow.</p>
+        </div>
+        <div id="flowChart" class="flow-chart"></div>
+      </article>
+
+      <aside class="panel cfo-read">
+        <span class="eyebrow">CFO read</span>
+        <h2 id="readHeadline">Loading…</h2>
+        <p id="readCopy">Reading the current finance snapshot.</p>
+        <div class="bridge">
+          <div><span>Posted runway · bank-posted only</span><b id="postedRunway">—</b></div>
+          <div><span>Adjusted runway · decision number</span><b id="realRunway">—</b></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="three-col">
+      <article class="panel">
+        <div class="panel-head compact"><div><span class="eyebrow">Obligations</span><h2>Committed Burn</h2></div></div>
+        <div id="commitments" class="list"></div>
+      </article>
+      <article class="panel alert-panel">
+        <div class="panel-head compact"><div><span class="eyebrow">Watch</span><h2>Alerts / Review</h2></div></div>
+        <div id="alerts" class="list"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head compact"><div><span class="eyebrow">Mapping</span><h2>Excluded Cash</h2></div></div>
+        <div id="excluded" class="list"></div>
+      </article>
+    </section>
+
+    <section class="layout lower">
+      <article class="panel">
+        <div class="panel-head compact"><div><span class="eyebrow">Cash</span><h2>Accounts</h2></div></div>
+        <div class="table-wrap"><table><thead><tr><th>Account</th><th>Lane</th><th>Pool</th><th>Balance</th></tr></thead><tbody id="accountsBody"></tbody></table></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head compact"><div><span class="eyebrow">Ledger</span><h2>Recent Transactions</h2></div></div>
+        <div class="table-wrap"><table><thead><tr><th>Date</th><th>Description</th><th>Lane</th><th>Amount</th></tr></thead><tbody id="txBody"></tbody></table></div>
+      </article>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
