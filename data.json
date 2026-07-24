@@ -1,0 +1,517 @@
+{
+  "generatedAt": "2026-07-24T15:54:09.579Z",
+  "dataUpdatedAt": "2026-07-24T15:54:09.396Z",
+  "source": "SimpleFIN → internal finance snapshot → public cockpit snapshot",
+  "cards": {
+    "status": "YELLOW — watch",
+    "nmsCash": 5804.64,
+    "homeCash": 384.46,
+    "totalCash": 6189.1,
+    "bdtExcluded": 60.75,
+    "adjustedRunwayDays": 43.8,
+    "postedRunwayDays": 117.7,
+    "burnBasis": 132.66,
+    "postedOutflow": 49.33,
+    "avgIncome": 153.8,
+    "dailyGap": 21.14,
+    "committedBurn": 83.33
+  },
+  "dailyFlow": [
+    {
+      "date": "2026-06-24",
+      "income": 0,
+      "outflow": 258.13,
+      "net": -258.13
+    },
+    {
+      "date": "2026-06-26",
+      "income": 344.52,
+      "outflow": 344.52,
+      "net": 0
+    },
+    {
+      "date": "2026-06-29",
+      "income": 142.17,
+      "outflow": 0,
+      "net": 142.17
+    },
+    {
+      "date": "2026-06-30",
+      "income": 27.89,
+      "outflow": 142.89,
+      "net": -115
+    },
+    {
+      "date": "2026-07-01",
+      "income": 723.96,
+      "outflow": 458.57,
+      "net": 265.39
+    },
+    {
+      "date": "2026-07-02",
+      "income": 262.1,
+      "outflow": 308.21,
+      "net": -46.11
+    },
+    {
+      "date": "2026-07-03",
+      "income": 260,
+      "outflow": 387.19,
+      "net": -127.19
+    },
+    {
+      "date": "2026-07-04",
+      "income": 0,
+      "outflow": 15,
+      "net": -15
+    },
+    {
+      "date": "2026-07-06",
+      "income": 0,
+      "outflow": 96.55,
+      "net": -96.55
+    },
+    {
+      "date": "2026-07-08",
+      "income": 307.26,
+      "outflow": 0,
+      "net": 307.26
+    },
+    {
+      "date": "2026-07-09",
+      "income": 307.26,
+      "outflow": 307.26,
+      "net": 0
+    },
+    {
+      "date": "2026-07-10",
+      "income": 0,
+      "outflow": 5,
+      "net": -5
+    },
+    {
+      "date": "2026-07-11",
+      "income": 0,
+      "outflow": 13.19,
+      "net": -13.19
+    },
+    {
+      "date": "2026-07-13",
+      "income": 0,
+      "outflow": 155.29,
+      "net": -155.29
+    },
+    {
+      "date": "2026-07-14",
+      "income": 0,
+      "outflow": 16.99,
+      "net": -16.99
+    },
+    {
+      "date": "2026-07-15",
+      "income": 191.2,
+      "outflow": 0,
+      "net": 191.2
+    },
+    {
+      "date": "2026-07-16",
+      "income": 481.56,
+      "outflow": 391.89,
+      "net": 89.67
+    },
+    {
+      "date": "2026-07-17",
+      "income": 1019.13,
+      "outflow": 305.69,
+      "net": 713.44
+    },
+    {
+      "date": "2026-07-18",
+      "income": 728.77,
+      "outflow": 728.77,
+      "net": 0
+    },
+    {
+      "date": "2026-07-19",
+      "income": 0,
+      "outflow": 16,
+      "net": -16
+    },
+    {
+      "date": "2026-07-20",
+      "income": 0,
+      "outflow": 23.19,
+      "net": -23.19
+    },
+    {
+      "date": "2026-07-21",
+      "income": 57.05,
+      "outflow": 10,
+      "net": 47.05
+    },
+    {
+      "date": "2026-07-22",
+      "income": 1725.55,
+      "outflow": 58.55,
+      "net": 1667
+    },
+    {
+      "date": "2026-07-23",
+      "income": 1668.5,
+      "outflow": 1683.65,
+      "net": -15.15
+    },
+    {
+      "date": "2026-07-24",
+      "income": 0,
+      "outflow": 79,
+      "net": -79
+    }
+  ],
+  "topAccounts": [
+    {
+      "name": "Business Checking 2807 (2807)",
+      "institution": "Truist",
+      "lane": "nms",
+      "pool": "nms_truist_operating",
+      "balance": 3095.04,
+      "last4": "2807",
+      "review": false
+    },
+    {
+      "name": "Operating Expenses #10 (0162)",
+      "institution": "Relay Financial",
+      "lane": "nms",
+      "pool": "nms_spendable_relay",
+      "balance": 2699.52,
+      "last4": "0162",
+      "review": false
+    },
+    {
+      "name": "Personal Checking 9381 (9381)",
+      "institution": "Truist",
+      "lane": "home",
+      "pool": "home_operating",
+      "balance": 384.46,
+      "last4": "9381",
+      "review": false
+    },
+    {
+      "name": "Operating Expenses #0 (6412)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 43.09,
+      "last4": "6412",
+      "review": false
+    },
+    {
+      "name": "Income Account #6 (7569)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 17.64,
+      "last4": "7569",
+      "review": false
+    },
+    {
+      "name": "Debt Buster (0322)",
+      "institution": "Relay Financial",
+      "lane": "nms",
+      "pool": "nms_relay_debt_cash",
+      "balance": 10.08,
+      "last4": "0322",
+      "review": false
+    },
+    {
+      "name": "Investment Vault (6413)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 0.02,
+      "last4": "6413",
+      "review": false
+    },
+    {
+      "name": "Jared - Owners Pay (7565)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 0,
+      "last4": "7565",
+      "review": false
+    },
+    {
+      "name": "Steve - Owners Pay (7566)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 0,
+      "last4": "7566",
+      "review": false
+    },
+    {
+      "name": "Tax Holding #4 (7567)",
+      "institution": "Relay Financial",
+      "lane": "bdt_excluded",
+      "pool": "excluded_bdt",
+      "balance": 0,
+      "last4": "7567",
+      "review": false
+    }
+  ],
+  "reviewAccounts": [
+    {
+      "source_provider": "simplefin",
+      "id": "ACT-4ac04473-f5bd-4bdd-b679-929d3ae6a3c6",
+      "name": "The Vault #14 (0237)",
+      "institution": "Relay Financial",
+      "currency": "USD",
+      "balance": 0,
+      "available_balance": 0,
+      "cash_balance": 0,
+      "cash_balance_basis": "ledger_balance",
+      "balance_date": "2026-07-24",
+      "lane": "unknown",
+      "pool": "unknown_relay_vault",
+      "included_in_cash": false,
+      "included_in_operating_cash": false,
+      "mapping_source": "config/finance-account-map.json",
+      "mapping_review_required": true,
+      "mapping_notes": "Unknown Relay vault; not NMS vault because Steve confirmed NMS vault is 0242. Keep uncounted until identified.",
+      "transaction_count": 0,
+      "transactions": []
+    },
+    {
+      "source_provider": "simplefin",
+      "id": "ACT-9b0d1d80-02dc-40f1-9808-e82997d32549",
+      "name": "Gig Apps (4065)",
+      "institution": "Relay Financial",
+      "currency": "USD",
+      "balance": 0,
+      "available_balance": 0,
+      "cash_balance": 0,
+      "cash_balance_basis": "ledger_balance",
+      "balance_date": "2026-07-24",
+      "lane": "unknown",
+      "pool": "unknown_relay_zero",
+      "included_in_cash": false,
+      "included_in_operating_cash": false,
+      "mapping_source": "config/finance-account-map.json",
+      "mapping_review_required": true,
+      "mapping_notes": "Zero balance; not counted until NMS vs BDT/Home is confirmed.",
+      "transaction_count": 0,
+      "transactions": []
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-07-24",
+      "description": "From Web Designer Protm Address Joshhall",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -79,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-23",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Income Account #8 (9545)",
+      "amount": -1668.5,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-23",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": 1668.5,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-23",
+      "description": "Usefathom.com",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -15.15,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-22",
+      "description": "Zoho Corporation",
+      "account": "Income Account #8 (9545)",
+      "amount": 1668.5,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-22",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Income Account #8 (9545)",
+      "amount": -57.05,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-22",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": 57.05,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-22",
+      "description": "SimpleFIN Bridge",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -1.5,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-21",
+      "description": "Zoho Corporation",
+      "account": "Income Account #8 (9545)",
+      "amount": 57.05,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-21",
+      "description": "From X Developer Platform Address",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -10,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-20",
+      "description": "GoDaddy",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -23.19,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "Paddle",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -16,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-18",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Income Account #8 (9545)",
+      "amount": -728.77,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-18",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": 728.77,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "Zoho Corporation",
+      "account": "Income Account #8 (9545)",
+      "amount": 728.77,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Income Account #8 (9545)",
+      "amount": -290.36,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "Steve Schramm Transfer Automation Empty Income Account",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": 290.36,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    },
+    {
+      "date": "2026-07-17",
+      "description": "From Hetzner Online Address",
+      "account": "Operating Expenses #10 (0162)",
+      "amount": -15.33,
+      "lane": "nms",
+      "pool": "nms_spendable_relay"
+    }
+  ],
+  "commitments": [
+    {
+      "id": "steve-owner-pay-twice-monthly",
+      "label": "Steve owner pay",
+      "lane": "nms_to_home",
+      "daily": 83.33,
+      "monthly": 2500,
+      "treatment": "owner_pay_transfer"
+    }
+  ],
+  "bdtAccounts": [
+    {
+      "name": "Operating Expenses #0 (6412)",
+      "institution": "Relay Financial",
+      "balance": 43.09,
+      "last4": "6412"
+    },
+    {
+      "name": "Investment Vault (6413)",
+      "institution": "Relay Financial",
+      "balance": 0.02,
+      "last4": "6413"
+    },
+    {
+      "name": "Jared - Owners Pay (7565)",
+      "institution": "Relay Financial",
+      "balance": 0,
+      "last4": "7565"
+    },
+    {
+      "name": "Steve - Owners Pay (7566)",
+      "institution": "Relay Financial",
+      "balance": 0,
+      "last4": "7566"
+    },
+    {
+      "name": "Tax Holding #4 (7567)",
+      "institution": "Relay Financial",
+      "balance": 0,
+      "last4": "7567"
+    },
+    {
+      "name": "Profit Holding #5 (7568)",
+      "institution": "Relay Financial",
+      "balance": 0,
+      "last4": "7568"
+    },
+    {
+      "name": "Income Account #6 (7569)",
+      "institution": "Relay Financial",
+      "balance": 17.64,
+      "last4": "7569"
+    },
+    {
+      "name": "Vacation Fund (7571)",
+      "institution": "Relay Financial",
+      "balance": 0,
+      "last4": "7571"
+    }
+  ],
+  "freshness": {
+    "staticSnapshot": true,
+    "generatedAt": "2026-07-24T15:54:09.585Z"
+  }
+}
